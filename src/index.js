@@ -10,14 +10,15 @@ import {
 import './style.css'
 import Home from './views/home'
 import NotFound from './views/not-found'
+import Log from './views/log'
 
 const App = () => {
   return (
     <Router>
       <Switch>
         <Route component={Home} exact path="/" />
-        <Route component={NotFound} path="**" />
-        <Redirect to="**" />
+        <Route component={Log} exact path="/log" />
+        <Route component={NotFound} path="*" />
       </Switch>
     </Router>
   )
