@@ -7,7 +7,7 @@ import { useHistory } from 'react-router-dom'
 import FeatureCard from '../components/FeatureCard/feature-card'
 import Question1 from '../components/question1'
 import './home.css'
-import MyForm from '../components/Form'
+//import MyForm from '../components/Form'
 
 const Home = (props) => {
   const history = useHistory();
@@ -53,7 +53,7 @@ const Home = (props) => {
           >
             <div className="home-nav">
               <div className="home-top">
-                <span className="logo">FARMWISE</span>
+                <span className="logo">Crophecy</span>
                 <div data-thq="thq-close-menu" className="home-close-menu">
                   <svg
                     viewBox="0 0 1024 1024"
