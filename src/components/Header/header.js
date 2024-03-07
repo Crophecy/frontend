@@ -83,7 +83,7 @@ const Header = (props) => {
 }
 
 Header.defaultProps = {
-  logo: 'FARMWISE',
+  logo: 'CROPHECY',
   nav12: 'Home',
   nav22: 'About Us',
   nav32: 'Services',
